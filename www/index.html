@@ -5,14 +5,55 @@
 	<title>Handyfinder</title>
 
 	<link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css">
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <div class="container">
+	<div id="progress"></div>
 	<div id="questions">
-
+	<div id="welcome" class="row">
+	<div class="questionTitle">Willkommen</div>
+	<div class="questionDescription">In nur wenigen Schritten können Sie Ihr perfektes Handy finden!</div>
+		<div class="col s7">
+		    <a href="#" id="amateur">
+				<div class="card">
+					<div class="card-image">
+						<img src="http://placehold.it/700x350">
+						<span class="card-title">Geführt</span>
+					</div>
+					<div class="card-content">
+						<p>Welches Telefon passt am besten zu mir?</p>
+					</div>
+				</div>
+		    </a>
+		</div>
+		<div class="col s5">
+		    <a href="#" id="expert">
+				<div class="card">
+					<div class="card-image">
+						<img src="http://placehold.it/490x350">
+						<span class="card-title">Überspringen</span>
+					</div>
+					<div class="card-content">
+						<p>Ich möchte direkt zu den Feineinstellungen</p>
+					</div>
+				</div>
+		    </a>
+		</div>
+	</div>
 
 	</div>
-	<div class="phones">
+	<div id="buttons" class="buttons">
+		<a class="waves-effect waves-light btn" id="prev">
+			<i class="mdi-navigation-chevron-left left"></i>Zurück
+		</a>
+		<a class="waves-effect waves-light btn" id="next">
+			Überspringen<i class="mdi-navigation-chevron-right right"></i>
+		</a>
+
+	</div>
+	<div class="row phones" id="phones">
+	<div class="questionTitle">Ihre Auswahl</div>
 
 	</div>
 </div>
@@ -29,6 +70,9 @@
 <script src="templates/question.js"></script>
 <script src="templates/answer.js"></script>
 <script src="templates/form.js"></script>
+<script src="templates/phone.js"></script>
+<!-- <script src="templates/button.js"></script> -->
+<script src="templates/progress.js"></script>
 
 <script src="js/index.js"></script>
 </body>

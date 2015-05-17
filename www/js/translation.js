@@ -5,7 +5,10 @@ app.translations = {
 	nfc: "NFC",
 	bluetooth: "Bluetooth",
 	lte: "LTE",
-	sd: "Speichererweiterung",
+	sd: "Speicherkarte",
 	smartphone: "Smartphone",
-	plastic: "Plastic"
+	plastic: "Plastic",
+	wifi: "WLAN",
+	barren: "Barren",
+	aluminium: "Aluminium"
 }
